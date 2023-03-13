@@ -271,14 +271,15 @@ body {
 }
 
 /* section FILTER */
-.filter {
-   padding: 96px 0 72px 0;
+.projects {
+   padding: 96px 0 120px 0;
 }
 
 .filter__list {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin: 0 0 72px 0;
 }
 
 .filter__item:not(:last-child) {
@@ -304,7 +305,6 @@ body {
    border-color: transparent;
 }
 
-/* section PROJECTS */
 .projects__list {
    display: flex;
    justify-content: space-between;
